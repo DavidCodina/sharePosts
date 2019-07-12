@@ -2,21 +2,19 @@
 
 
 	sharePosts:
+	
 
-
-
+	Demo: https://tests.davidmcodina.com/shareposts/
+	
 	This project is based off of the Object Oriented PHP & MVC tutorial by Brad Traversy:
 	https://www.udemy.com/object-oriented-php-mvc/
-	
 	
 	The test user email is:    jdoe@gmail.com
 	The test user password is: 123456
 
-
 	In order to get this working you need to edit config.php.
 	Set the values for URLROOT, SITENAME, DB_HOST (usually 'localhost'), DB_USER, DB_PASS, and DB_NAME	
 	according to your use case:
-
 
 		define('APPROOT', dirname(dirname(__FILE__)));
   		define('URLROOT', _YOUR_URL_);        		//e.g., 'http://localhost/shareposts'
@@ -36,12 +34,10 @@
 		One is inside the public folder.
 
 
-
 	If you intend to change the name of the project folder then make sure to go to
 	app/public/.htaccess and change this line:
 
-
-			 RewriteBase /shareposts/public
+		RewriteBase /shareposts/public
 
 		
 	Change shareposts to the name of your project folder
